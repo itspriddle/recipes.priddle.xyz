@@ -1,5 +1,6 @@
 repository: itspriddle/recipes.priddle.xyz
 url: "https://recipes.priddle.xyz"
+baseurl: ""
 
 encoding: utf-8
 
