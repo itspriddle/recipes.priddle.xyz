@@ -1,1 +1,1 @@
-Sitemap: https://recipes.priddle.xyz/pages/itspriddle/recipes.priddle.xyz/sitemap.xml
+Sitemap: https://recipes.priddle.xyz/sitemap.xml
