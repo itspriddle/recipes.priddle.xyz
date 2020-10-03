@@ -1,0 +1,64 @@
+encoding: utf-8
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Timezone
+timezone: 'America/New_York'
+
+# Files to exclude
+exclude:
+  - .envrc
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - bin
+  - images
+
+# Jekyll Plugins
+plugins:
+  - jekyll-default-layout
+  - jekyll-github-metadata
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jemoji
+
+# jekyll-titltes-from-headings config
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false
+
+# Layout
+theme: jekyll-theme-primer
+title: Recipes
+
+# Metadata
+author:
+  email: jpriddle@me.com
+  github: itspriddle
+  linkedin: itspriddle
+  location: Clifton Park, NY
+
+# Colletctions
+collections:
+  recipes:
+    output: true
+
+include:
+  - recipes
+  - index.md
+
+defaults:
+  - scope:
+      path: recipes
+    values:
+      layout: default
+      recipe: true
+
+optional_front_matter:
+  remove_originals: true
