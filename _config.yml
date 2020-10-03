@@ -27,6 +27,7 @@ exclude:
 plugins:
   - jekyll-default-layout
   - jekyll-github-metadata
+  - jekyll-optional-front-matter
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jemoji
@@ -64,5 +65,3 @@ defaults:
       layout: default
       recipe: true
 
-optional_front_matter:
-  remove_originals: true
