@@ -26,6 +26,9 @@ jobs:
           # access token granted, at a minimum, the `public_repo` and
           # the `repo_deployment` scopes needed to deploy to GH Pages.
           secret_gh_pages_api_token: ${{ secrets.GH_PAGES_TOKEN }}
-          
+
           # Branch to publish to
           gh_pages_publishing_source: gh-pages
+
+          # Commit message
+          git_commit_message: "Update gh-pages"
