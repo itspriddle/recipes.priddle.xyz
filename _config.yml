@@ -19,6 +19,7 @@ exclude:
   - .envrc
   - Gemfile
   - Gemfile.lock
+  - README.md
   - bin
   - images
 
