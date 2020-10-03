@@ -15,7 +15,6 @@ timezone: 'America/New_York'
 # Files to exclude
 exclude:
   - .envrc
-  - CNAME
   - Gemfile
   - Gemfile.lock
   - bin
