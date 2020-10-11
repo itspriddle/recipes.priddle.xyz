@@ -6,12 +6,12 @@
 - 28 oz tomato puree (1 can)
 - 3-5 cloves of garlic, finely chopped
 - 1 yellow onion, finely chopped
-- 1 tablespoon tomato paste
+- 1 tbsp tomato paste
 - 1 sprig of fresh basil
-- 1 teaspoon crushed red pepper flakes (optional)
-- 1-2 tablespoons unsalted butter (optional)
-- 1 parmesan cheese rind (or a tablespoon of grated parmesan cheese)
-- 2 tablespoons olive oil
+- 1 tsp crushed red pepper flakes (optional)
+- 1-2 tbsp unsalted butter (optional)
+- 1 parmesan cheese rind (or a tbsp of grated parmesan cheese)
+- 2 tbsp olive oil
 - salt
 
 ## Directions

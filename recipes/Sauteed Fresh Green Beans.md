@@ -2,10 +2,10 @@
 
 ## Ingredients
 
-- 1½ tablespoons olive oil
-- ½ teaspoon garlic salt
-- ½ teaspoon garlic powder
-- ½ teaspoon onion salt
+- 1½ tbsp olive oil
+- ½ tsp garlic salt
+- ½ tsp garlic powder
+- ½ tsp onion salt
 - freshly ground black pepper (to taste)
 - ¾ lbs fresh green beans
 

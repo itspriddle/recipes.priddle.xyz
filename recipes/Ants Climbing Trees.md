@@ -3,16 +3,16 @@
 ## Ingredients
 
 - ¼ lb Chinese dried bean thread noodles
-- 2 teaspoons sesame oil
-- 3 tablespoons canola oil
+- 2 tsp sesame oil
+- 3 tbsp canola oil
 - 4 oz ground pork
 - 4 cloves garlic, minced
 - 1 3-inch piece ginger, peeled and minced
-- 3 tablespoons Chinese red chile bean paste (douban jiang)
-- 2 tablespoons light soy sauce
-- 3 teaspoons Chinese rice wine
+- 3 tbsp Chinese red chile bean paste (douban jiang)
+- 2 tbsp light soy sauce
+- 3 tsp Chinese rice wine
 - 1½ cups chicken stock
-- 2 tablespoons dark soy sauce
+- 2 tbsp dark soy sauce
 - 3 scallions, thinly sliced
 
 ## Directions

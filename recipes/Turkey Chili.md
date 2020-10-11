@@ -9,12 +9,12 @@
 - 2 large poblanos or jalapenos
 - ½ small white onion
 - 1 small can kidney beans
-- 2 tablespoon cumin
-- 1 teaspoon black pepper
-- ½ jar (5 tablespoons) chili powder
-- ½ teaspoon salt
+- 2 tbsp cumin
+- 1 tsp black pepper
+- ½ jar (5 tbsp) chili powder
+- ½ tsp salt
 - 1 small can chicken stock
-- ½ teaspoon cayenne pepper (optional)
+- ½ tsp cayenne pepper (optional)
 
 ## Directions
 

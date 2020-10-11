@@ -2,12 +2,12 @@
 
 ## Ingredients
 
-- 1 tablespoon lemon juice
-- ½ tablespoon Dijon mustard
+- 1 tbsp lemon juice
+- ½ tbsp Dijon mustard
 - 1 garlic clove, grated
-- ¼ teaspoon black pepper
-- ⅛ teaspoon kosher salt
-- 1½ tablespoons olive oil
+- ¼ tsp black pepper
+- ⅛ tsp kosher salt
+- 1½ tbsp olive oil
 - 2x 4 oz chicken breasts
 
 ## Directions

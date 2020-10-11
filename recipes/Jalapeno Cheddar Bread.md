@@ -6,10 +6,10 @@
 - 2½ cups shredded sharp cheddar cheese, divided
 - 2 jalapeños, seeded and coarsely chopped
 - 1 jalapeño, sliced into rings, divided
-- 1 tablespoon kosher salt
+- 1 tbsp kosher salt
 - 2 cups warm water
-- 2¼ teaspoons instant yeast
-- 1 tablespoon olive oil
+- 2¼ tsp instant yeast
+- 1 tbsp olive oil
 
 ## Directions
 

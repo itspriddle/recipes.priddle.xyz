@@ -4,7 +4,7 @@
 
 - 4 lbs chicken thighs (or 8 Cornish game hens)
 - 4 cloves garlic
-- 3 Tablespoons oregano
+- 3 tbsp oregano
 - dash Salt
 - dash black pepper
 - 1 cup red wine vinegar
@@ -16,7 +16,7 @@
 - 8 bay leaves
 - 1 cup brown sugar
 - 1 cup dry white wine
-- 4 Tablespoons fresh parsley
+- 4 tbsp fresh parsley
 
 ## Directions
 

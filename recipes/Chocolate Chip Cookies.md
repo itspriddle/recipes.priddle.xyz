@@ -3,15 +3,15 @@
 ## Ingredients
 
 - 1 cup all-purpose flour
-- ½ teaspoon baking soda
-- ½ teaspoon salt
+- ½ tsp baking soda
+- ½ tsp salt
 - ½ cup (1 stick) butter, softened
 - ½ cup brown sugar, packed
 - ⅓ cup granulated sugar
-- ½ teaspoon vanilla extract
+- ½ tsp vanilla extract
 - 1 large egg
 - 1 cup (6 oz) chocolate chips
-- 1 tablespoon creamy peanut butter
+- 1 tbsp creamy peanut butter
 
 ## Directions
 
