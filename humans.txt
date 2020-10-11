@@ -1,0 +1,13 @@
+---
+---
+--------------------------------------------------------------------------------
+{{ site.title }} by {{ site.author.name }}
+
+Contact: {{ site.author.email | replace_first: "@", " [at] " }}
+Twitter: https://twitter.com/{{ site.author.twitter }}
+GitHub:  https://github.com/{{ site.author.github }}
+
+--------------------------------------------------------------------------------
+{{ site.url | replace_first: "https://" | upcase }}
+
+Last update: {{ site.time }}
