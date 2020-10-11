@@ -2,12 +2,12 @@
 
 ## Ingredients
 
-- 2lbs Ground Turkey
+- 2 lbs Ground Turkey
 - 2 Large Cans Cento Crushed Tomatos
 - 1 Large Can Cento Tomato Purée
 - 2 Large Green Peppers
 - 2 Large Poblanos
-- 1/2 Small White Onion
+- ½ Small White Onion
 - 1 Small Can Kidney Beans
 - 2 Tablespoon Cumin
 - 1 Teaspoon Black Pepper
