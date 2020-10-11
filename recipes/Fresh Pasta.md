@@ -11,15 +11,13 @@
 
 ## Directions
 
-Step 1: In mixing bowl, add both flours and salt. Mix to combine. Make a well
-in center of flour. Add eggs, water, olive oil and mix to blend. Work flour
-into wet ingredients, mix by hand. Gently knead mixture 2-3 minutes. Divide
-dough in half, press down slight, cover with plastic wrap. Let rest 20
-minutes.
+**Step 1:** Mix both flours and salt in a large bowl. Make a well in center of
+flour. Add eggs, water, olive oil. Mix to blend. Work flour into wet
+ingredients, mix by hand. Gently knead for 2-3 minutes. Divide dough in half,
+press down slightly, cover with plastic wrap. Let rest 20 minutes.
 
-Step 2: Cut dough into small balls. Roll out dough with rolling pin, about ¼
-inch thick. Using pasta machine, put dough through machine on setting 0 five
-times, each time folding in trifold. After 5 times, change to setting 1.
-Repeat steps above until you get to setting 5 or 6. Place dough on cool cookie
-sheet sprinkled with semolina. Continue process until all dough is rolled. Use
-pasta cutter to cut the pasta in shape desired.
+**Step 2:** Cut dough into small balls. Roll out balls with rolling pin, to ¼
+inch thickness. Using pasta machine, put dough through machine on setting 0
+five times, each time folding in trifold. Repeat with to setting 1-5 on pasta
+machine. Place sliced dough on cool cookie sheet sprinkled with semolina.
+Repeat for remaining pasta. Cook 3-5 minutes in boiling water.
