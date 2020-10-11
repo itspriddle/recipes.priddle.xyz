@@ -8,8 +8,8 @@ class RecipePdfPresenter
 
   DOCUMENT_PAGE_SIZE = [6.in, 4.in]
 
-  DEFAULT_FONT_FAMILY = "Roboto"
-  DEFAULT_FONT_SIZE = 11
+  DEFAULT_FONT_FAMILY = "DejaVuSansMono"
+  DEFAULT_FONT_SIZE = 8
   DEFAULT_FONT_LEADING = 1
 
   COLUMNS = {
@@ -30,11 +30,11 @@ class RecipePdfPresenter
   }
 
   FONT_MANIFEST = {
-    "Roboto" => {
-      normal:      "_fonts/Roboto-Regular.ttf",
-      italic:      "_fonts/Roboto-Italic.ttf",
-      bold:        "_fonts/Roboto-Bold.ttf",
-      bold_italic: "_fonts/Roboto-BoldItalic.ttf",
+    "DejaVuSansMono" => {
+      bold:        "_fonts/DejaVuSansMono-Bold.ttf",
+      bold_italic: "_fonts/DejaVuSansMono-BoldOblique.ttf",
+      italic:      "_fonts/DejaVuSansMono-Oblique.ttf",
+      normal:      "_fonts/DejaVuSansMono.ttf",
     }
   }
 
@@ -71,7 +71,7 @@ class RecipePdfPresenter
                            found = true
                          end
                        end
-                       lines.join("\n")
+                       parse_markdown_emphasis lines.join("\n")
                      end
   end
 
@@ -87,7 +87,8 @@ class RecipePdfPresenter
                           found = true
                         end
                       end
-                      lines.join("\n").strip.gsub(/\n\n/, "XXX").squish.gsub("XXX", "\n\n")
+                      out = lines.join("\n").strip.gsub(/\n\n/, "XXX").squish.gsub("XXX", "\n\n")
+                      parse_markdown_emphasis out
                     end
   end
 
@@ -112,7 +113,7 @@ class RecipePdfPresenter
         pdf.bounding_box(col[:position], col[:dimensions]) do
           pdf.text name.to_s.capitalize, style: :bold
           pdf.move_down 10
-          pdf.text send(name)
+          pdf.text send(name), inline_format: true
         end
       end
     end
@@ -127,6 +128,11 @@ class RecipePdfPresenter
   end
 
   private
+
+  def parse_markdown_emphasis(string)
+    string.gsub(/^### (.*)$/, "\n<b>\\1</b>").strip
+
+  end
 end
 
 
