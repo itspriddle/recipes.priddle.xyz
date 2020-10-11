@@ -3,12 +3,12 @@
 ## Ingredients
 
 - 1 lb tri-colored spiral pasta
-- 1 16oz bottle Italian dressing
+- 1 16 oz bottle Italian dressing
 - 2 cups cherry tomatoes
 - 1 cup chopped green pepper
 - 1 cup chopped red pepper
 - ½ cup chopped yellow pepper
-- 1 can (8oz) sliced black olives
+- 1 can (8 oz) sliced black olives
 - 2 cups sliced mini pepperoni
 - 2 cups cubed cheddar cheese
 - ½ cup chopped red onion

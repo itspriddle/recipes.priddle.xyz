@@ -12,5 +12,5 @@
 
 ## Directions
 
-Preheat oven to 400°. Place all ingredients in one large bowl and mix until
+Preheat oven to 400° F. Place all ingredients in one large bowl and mix until
 chickpeas are all coated. Place in baking tray. Cook for 15 minutes.

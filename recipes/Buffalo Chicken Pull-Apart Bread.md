@@ -13,8 +13,8 @@
 
 ## Directions
 
-Preheat oven to 350°. Roll out dough and cut into 3x3 inch squares (3 rows of
-5). In a bowl, toss together shredded chicken, buffalo sauce, scallions and
+Preheat oven to 350° F. Roll out dough and cut into 3x3 inch squares (3 rows
+of 5). In a bowl, toss together shredded chicken, buffalo sauce, scallions and
 half of the cheese. Brush button on a rectangle, top with buffalo chicken
 mixture, sprinkle with cheese. Repeat with raining rectangles, staking one on
 top of the other (chicken side up). Brush the inside of a load pan with melted
