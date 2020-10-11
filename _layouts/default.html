@@ -24,13 +24,13 @@
       {% endif %}
       -->
 
-      {% unless page.home %}
+      {% if page.recipe %}
         <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
           <a href="{{ page.url | replace: ".html", ".txt" }}">Plaintext</a> |
           <a href="{{ page.url | replace: ".html", ".pdf" }}">PDF</a> |
           <a href="{{ "/" | absolute_url }}">Home</a></h1>
         </div>
-      {% endunless %}
+      {% endif %}
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
