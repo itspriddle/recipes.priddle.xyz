@@ -130,7 +130,10 @@ class RecipePdfPresenter
   private
 
   def parse_markdown_emphasis(string)
-    string.gsub(/^### (.*)$/, "\n<b>\\1</b>").strip
+    string
+      .gsub(/^### (.*)$/, "\n<b>\\1</b>")
+      .gsub(/\*\*([^\*]+)\*\*/, "<b>\\1</b>")
+      .strip
   end
 end
 
