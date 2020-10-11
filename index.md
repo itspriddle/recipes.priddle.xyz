@@ -9,7 +9,7 @@ home: true
 {% assign recipes = site.static_files | where: "recipe", true %}
 {% for recipe in recipes %}
   <li>
-    <a href="{{ recipe.path | replace: ".md", ".html" | uri_escape }}">{{ recipe.basename }}</a>
+    <a href="{{ recipe.path | replace: ".md", ".html" | uri_escape }}">{{ recipe.basename | smartify }}</a>
   </li>
 {% endfor %}
 </ul>
