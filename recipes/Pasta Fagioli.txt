@@ -21,11 +21,11 @@
 
 ## Directions
 
-In large pot, heat 1tbsp of olive oil over medium heat. Add sausage to skillet
-and cook until browned and crumbled, about 3-5 minutes. Drain excess fat and
-set aside. Add remaining olive oil to the stockpot. Add garlic, onion, carrots
-and celery. Cook, stirring occasionally until tender, about 3-4 minutes. Whisk
-in chicken broth, tomato sauce, diced tomatoes, basil, oregano, thyme, sausage
-and 1 cup of water. Season with salt and pepper to taste. Bring to a boil.
-Reduce heat and simmer until vegetables are tender, about 10-15 minutes. Stir
-in pasta and beans. Stir until heated through.
+In large pot, heat 1 tbsp of olive oil over medium heat. Add sausage to
+skillet and cook until browned and crumbled, about 3-5 minutes. Drain excess
+fat and set aside. Add remaining olive oil to the stockpot. Add garlic, onion,
+carrots and celery. Cook, stirring occasionally until tender, about 3-4
+minutes. Whisk in chicken broth, tomato sauce, diced tomatoes, basil, oregano,
+thyme, sausage and 1 cup of water. Season with salt and pepper to taste. Bring
+to a boil. Reduce heat and simmer until vegetables are tender, about 10-15
+minutes. Stir in pasta and beans. Stir until heated through.

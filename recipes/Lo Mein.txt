@@ -3,11 +3,11 @@
 ## Ingredients
 
 - 8 oz lo mein noodles (or thin spaghetti)
-- 3 tablespoons soy sauce
-- 2 tablespoons teriyaki sauce
-- 2 tablespoons honey
-- ¼ teaspoon ground ginger
-- 2 tablespoons vegetable oil
+- 3 tbsp soy sauce
+- 2 tbsp teriyaki sauce
+- 2 tbsp honey
+- ¼ tsp ground ginger
+- 2 tbsp vegetable oil
 - 3 stalks celery, sliced
 - 2 large carrots cut into matchsticks
 - ½ sweet (yellow) onion, thinly sliced

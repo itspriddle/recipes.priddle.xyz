@@ -3,12 +3,12 @@
 ## Ingredients
 
 - 1 cup warm milk
-- 1 tablespoon milk
+- 1 tbsp milk
 - ¼ cup sugar
-- 1 tablespoon sugar
-- 2 teaspoons active dry yeast
+- 1 tbsp sugar
+- 2 tsp active dry yeast
 - 3 cups all-purpose flour
-- 1 teaspoon salt
+- 1 tsp salt
 - 2 large eggs
 - ⅓ cup melted butter
 

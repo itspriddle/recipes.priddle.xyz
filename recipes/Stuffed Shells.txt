@@ -8,12 +8,12 @@
 - 1 cup shredded mozzarella cheese
 - 1 egg
 - 1 packet fresh chives
-- 1 teaspoon onion powder
-- 1 teaspoon garlic powder
-- 1 teaspoon dried basil
+- 1 tsp onion powder
+- 1 tsp garlic powder
+- 1 tsp dried basil
 - 1½ cups chopped spinach
-- ¾ teaspoon salt
-- ½ teaspoon pepper
+- ¾ tsp salt
+- ½ tsp pepper
 
 ## Directions
 

@@ -4,14 +4,14 @@
 
 - 4-5 ripe bananas
 - 2 cups all-purpose flour
-- 1 teaspoon baking soda
-- ¼ teaspoon salt
-- ½ teaspoon cinnamon
+- 1 tsp baking soda
+- ¼ tsp salt
+- ½ tsp cinnamon
 - 1 large egg
 - 1 ⅛ cup sugar
 - ½ cup vegetable oil
-- 2 tablespoons buttermilk
-- 1 teaspoon vanilla extract
+- 2 tbsp buttermilk
+- 1 tsp vanilla extract
 - ½ cup (or more) chopped walnuts  
 
 ## Directions

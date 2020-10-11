@@ -4,11 +4,11 @@
 
 - ¼ cup soy sauce
 - ¼ cup rice wine vinegar
-- 1 tablespoon honey
+- 1 tbsp honey
 - 1 garlic clove, minced
-- 1 tablespoon minced scallion
-- ½ tablespoon minced fresh ginger root
-- 1 tablespoon sambal olek or other hot chili paste
+- 1 tbsp minced scallion
+- ½ tbsp minced fresh ginger root
+- 1 tbsp sambal olek or other hot chili paste
 
 ## Directions
 

@@ -2,15 +2,15 @@
 
 ## Ingredients
 
-- 6 tablespoons unsalted butter
+- 6 tbsp unsalted butter
 - ¼ cup finely grated parmesan cheese
-- 6 tablespoons all-purpose flour
+- 6 tbsp all-purpose flour
 - 2 cups whole milk
-- ½ tablespoon salt
-- ½ tablespoon ground black pepper
+- ½ tbsp salt
+- ½ tbsp ground black pepper
 - 5 extra-large eggs (or 6 large ones)
 - 2 ½ cups (6 oz) grated Gruyère
-- 3 tablespoons minced chives or garlic
+- 3 tbsp minced chives or garlic
 - 5-6 cup gratin dish
 
 ## Directions

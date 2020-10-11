@@ -5,8 +5,8 @@
 - 1 cup light corn syrup
 - 1 cup sugar
 - 3 eggs, well beaten
-- 2 tablespoons butter, melted
-- 1 tablespoon vanilla
+- 2 tbsp butter, melted
+- 1 tbsp vanilla
 - 1½ cups pecans
 - 1 deep dish frozen pie crust (9-inches)
 

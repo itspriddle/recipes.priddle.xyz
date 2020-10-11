@@ -3,14 +3,14 @@
 ## Ingredients
 
 - 2 lbs baking potatoes
-- 2 tablespoons olive oil
-- 1 teaspoon salt
-- 1 tablespoon McCormick Cajun Seasoning
+- 2 tbsp olive oil
+- 1 tsp salt
+- 1 tbsp McCormick Cajun Seasoning
 
 ### Alternatively
 
 - Omit salt
-- 1-2 tablespoons Slap Ya Mama Cajun Seasoning
+- 1-2 tbsp Slap Ya Mama Cajun Seasoning
 
 ## Directions
 

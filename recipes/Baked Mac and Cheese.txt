@@ -3,12 +3,12 @@
 ## Ingredients
 
 - 8 oz elbow macaroni
-- 1 tablespoon cornstarch
-- 1 teaspoon salt
-- ½ teaspoon dry mustard
-- ¼ teaspoon black pepper
+- 1 tbsp cornstarch
+- 1 tsp salt
+- ½ tsp dry mustard
+- ¼ tsp black pepper
 - 3 cups milk
-- 2 tablespoons butter
+- 2 tbsp butter
 - 8 oz cheddar cheese, shredded
 
 ## Directions
