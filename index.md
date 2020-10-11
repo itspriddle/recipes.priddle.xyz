@@ -1,5 +1,6 @@
 ---
 layout: default
+home: true
 ---
 
 🎂 and 🍝 and lots of 🧀
