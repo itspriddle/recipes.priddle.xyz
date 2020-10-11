@@ -22,6 +22,7 @@ exclude:
   - README.md
   - bin
   - images
+  - recipes/TEMPLATE.md
 
 # Jekyll Plugins
 plugins:
