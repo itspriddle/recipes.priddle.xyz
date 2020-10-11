@@ -3,7 +3,7 @@
 ## Ingredients
 
 - wonton wrappers
-- 1 ½ pounds ground pork (85% lean)
+- 1½ lbs ground pork (85% lean)
 - 1 tablespoon minced fresh ginger root
 - 4 cloves garlic, minced
 - 2 tablespoons thinly sliced scallions

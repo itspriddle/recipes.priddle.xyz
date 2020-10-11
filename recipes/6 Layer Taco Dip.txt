@@ -3,13 +3,13 @@
 ## Ingredients
 
 - 1 packet taco seasoning mix
-- 1 can (16oz) refried beans
-- 1 8oz pack cream cheese, softened
+- 1 can (16 oz) refried beans
+- 8 oz cream cheese (1 brick), softened
 - 1 container (16oz) sour cream
-- 1 jar (16oz) salsa
+- 1 jar (16 oz) salsa
 - 2 cups shredded cheddar cheese
 - 2 cups shredded iceberg lettuce
-- 1 can (16oz) sliced black olives
+- 1 can (16 oz) sliced black olives
 
 ## Directions
 

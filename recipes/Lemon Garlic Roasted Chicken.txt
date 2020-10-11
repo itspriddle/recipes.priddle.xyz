@@ -8,7 +8,7 @@
 - ¼ teaspoon black pepper
 - ⅛ teaspoon kosher salt
 - 1½ tablespoons olive oil
-- 2x 4oz chicken breasts
+- 2x 4 oz chicken breasts
 
 ## Directions
 

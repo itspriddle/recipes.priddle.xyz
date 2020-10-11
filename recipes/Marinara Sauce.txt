@@ -2,8 +2,8 @@
 
 ## Ingredients
 
-- 1 28oz can crushed tomatoes
-- 1 28oz can tomato puree
+- 28 oz crushed tomatoes (1 can)
+- 28 oz tomato puree (1 can)
 - 3-5 cloves of garlic, finely chopped
 - 1 yellow onion, finely chopped
 - 1 tablespoon tomato paste

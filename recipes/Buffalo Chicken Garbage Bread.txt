@@ -12,11 +12,11 @@
 
 ## Directions
 
-Preheat oven to 425°. Mix chicken and ½ cup buffalo sauce. On a well floured
+Preheat oven to 425° F. Mix chicken and ½ cup buffalo sauce. On a well floured
 surface, spread pizza dough into a rectangular shape. Add ranch dressing and
 remaining buffalo sauce and spread across dough. Add chicken, then top with
 mozzarella and cheddar cheese. Roll the dough like a pinwheel until you reach
-the end. Make sure to tuck the ends into the middle so it doesn’t ooze out
+the end. Make sure to tuck the ends into the middle so it doesn't ooze out
 while cooking. Spray baking sheet with light coat of non stick cooking spray.
 Place garbage bread on pan and bake 20-25 minutes. Let rest 5 minutes after
 removing from oven.

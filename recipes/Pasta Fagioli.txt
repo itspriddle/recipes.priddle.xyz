@@ -10,13 +10,13 @@
 - 3 carrots, peeled and diced
 - 2 stalks of celery, diced
 - 3 cups chicken broth
-- 1 can (16oz) tomato sauce
-- 1 can (15oz) diced tomatoes
+- 1 can (16 oz) tomato sauce
+- 1 can (15 oz) diced tomatoes
 - 1 tsp dried basil
 - 1 tsp dried oregano
 - ¾ tsp dried thyme
-- 1 can (15oz) red kidney beans
-- 1 can (15oz) great northern beans
+- 1 can (15 oz) red kidney beans
+- 1 can (15 oz) great northern beans
 - Salt and pepper to taste
 
 ## Directions

@@ -12,8 +12,8 @@
 
 ## Directions
 
-Preheat oven to 300°. Mix graham crumbs, 3 tablespoons sugar and butter. Press
-firmly into the bottom of a 9-inch springform pan. Beat cream cheese. Add 1
-cup sugar and 1 teaspoon vanilla, mix until well blended. Add eggs 1 at a
-time, mixing on low just until the egg is blended. Pour into springform pan
+Preheat oven to 300° F. Mix graham crumbs, 3 tablespoons sugar and butter.
+Press firmly into the bottom of a 9-inch springform pan. Beat cream cheese.
+Add 1 cup sugar and 1 teaspoon vanilla, mix until well blended. Add eggs 1 at
+a time, mixing on low just until the egg is blended. Pour into springform pan
 over crust. Bake 55 mins or until center is almost set. Refrigerate 4 hours.

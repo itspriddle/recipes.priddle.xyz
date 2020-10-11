@@ -27,8 +27,8 @@
 
 ## Directions
 
-Preheat oven to 325°. For crust, mix biscuits in blender until finely broken.
-Add cocoa and melted butter. Mix well. Press into bottom of a 9 inch
+Preheat oven to 325° F. For crust, mix biscuits in blender until finely
+broken. Add cocoa and melted butter. Mix well. Press into bottom of a 9 inch
 springform pan. Bake 5-8 minutes until firm. Raise oven to 375°. For filling,
 in a large bowl beat cream cheese with a mixer. Gradually add in sugar. Beat
 in cocoa. Add eggs, one at a time and beat. Stir in Kahlua, coffee and

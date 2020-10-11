@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- 1 15oz can tomato paste
+- 1 15 oz can tomato paste
 - 3 cups water
 - ½ cup chopped onion
 - ½ cup chopped green pepper
