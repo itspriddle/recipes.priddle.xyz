@@ -2,7 +2,8 @@
 
 ## Ingredients
 
-- 6 tablespoons unsalted butter ¼ cup finely grated parmesan cheese
+- 6 tablespoons unsalted butter
+- ¼ cup finely grated parmesan cheese
 - 6 tablespoons all-purpose flour
 - 2 cups whole milk
 - ½ tablespoon salt
