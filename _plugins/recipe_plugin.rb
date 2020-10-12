@@ -80,11 +80,13 @@ class RecipePdfPresenter
                       found = false
                       lines = []
                       content.lines.each do |l|
-                        if found
+                        if found && l.chomp != "---"
                           lines << l.chomp
                         end
                         if l.chomp =~ /\A## Directions\z/
                           found = true
+                        elsif l.chomp == "---"
+                          break
                         end
                       end
                       out = lines.join("\n").strip.gsub(/\n\n/, "XXX").squish.gsub("XXX", "\n\n")
@@ -96,6 +98,24 @@ class RecipePdfPresenter
     @title ||= begin
                  line = content.lines.first {|l| l =~ /\A# /}
                  line.chomp[2..-1]
+               end
+  end
+
+  def extra
+    @extra ||= begin
+                 found = false
+                 lines = []
+                 content.lines.each do |l|
+                   if found
+                     lines << l.chomp
+                   end
+
+                   if l.chomp == "---"
+                     found = true
+                   end
+                 end
+                 out = lines.join("\n").strip.gsub(/\n\n/, "XXX").squish.gsub("XXX", "\n\n")
+                 parse_markdown_emphasis out
                end
   end
 
@@ -116,9 +136,12 @@ class RecipePdfPresenter
           pdf.text send(name), inline_format: true
         end
       end
+
+      if extra.chomp != ""
+        pdf.start_new_page
+        pdf.text extra
+      end
     end
-
-
   end
 
   def cleanup!

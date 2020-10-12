@@ -21,9 +21,13 @@ Cover with a towel and proof for 60 minutes, until almost doubled in size.
 Fold dough toward center again 8 more times. Cover and proof another 30
 minutes. Add empty dutch oven with lid to oven and preheat to 450° F for 30
 minutes. Carefully peel dough out of the bowl onto a lightly floured surface.
-Flip and brush away excess flour. Fold edges of dough toward center 8 times,
-flip and transfer to a piece of parchment paper. Brush top of dough with olive
-oil. Sprinkle remaining ½ cup of cheese on top. Score dough with a sharp knife
-with an X. Arrange jalapeño rings on top. Place dough with parchment paper in
-the dutch oven, cover, and bake for 30 mins. Remove lid and bake another 20
-mins, until golden brown. Cool on a wire rack at least 1 hour before slicing.
+Flip and brush away excess flour.
+
+---
+
+Fold edges of dough toward center 8 times, flip and transfer to a piece of
+parchment paper. Brush top of dough with olive oil. Sprinkle remaining ½ cup
+of cheese on top. Score dough with a sharp knife with an X. Arrange jalapeño
+rings on top. Place dough with parchment paper in the dutch oven, cover, and
+bake for 30 mins. Remove lid and bake another 20 mins, until golden brown.
+Cool on a wire rack at least 1 hour before slicing.
