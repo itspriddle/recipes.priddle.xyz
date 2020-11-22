@@ -7,12 +7,14 @@
 - 1 tsp Salt
 - 3 tbsp Parmesan Cheese
 - ½ tsp Onion Powder
+- 1 tsp Garlic Powder
 - 1 tsp Parsley
 - 1 Egg
 
 ## Directions
 
 Preheat oven to 400° F. Mix beef and pork mix with breadcrumbs, salt, parmesan
-cheese, onion powder and parsley together. Once mixed, add in egg and mix
-together with your hands. Roll mixture into medium size balls and put on a
-cookie sheet. Bake for 18-22 minutes, or until they reach 160° in center.
+cheese, garlic powder onion powder and parsley together. Once mixed, add in
+egg and mix together with your hands. Roll mixture into medium size balls and
+put on a cookie sheet. Bake for 18-22 minutes, or until they reach 160° in
+center.
