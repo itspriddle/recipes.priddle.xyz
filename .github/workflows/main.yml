@@ -14,6 +14,9 @@ jobs:
   build-and-publish:
     runs-on: ubuntu-latest # This job uses a GitHub-hosted runner.
 
+    # Skip builds with "[ci skip]" in the commit
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+
     steps:
       # Checkout the source from the `jekyll` branch.
       - uses: actions/checkout@v2
