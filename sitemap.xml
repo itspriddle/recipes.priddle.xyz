@@ -55,6 +55,9 @@
 <loc>https://recipes.priddle.xyz/recipes/Chocolate%20Chip%20Cookies.html</loc>
 </url>
 <url>
+<loc>https://recipes.priddle.xyz/recipes/Cinnamon%20Butter.html</loc>
+</url>
+<url>
 <loc>https://recipes.priddle.xyz/recipes/Classic%20Cheesecake.html</loc>
 </url>
 <url>
@@ -137,5 +140,9 @@
 </url>
 <url>
 <loc>https://recipes.priddle.xyz/recipes/Turkey%20Chili.html</loc>
+</url>
+<url>
+<loc>https://recipes.priddle.xyz/test.html</loc>
+<lastmod>2020-12-21T11:41:40-05:00</lastmod>
 </url>
 </urlset>
