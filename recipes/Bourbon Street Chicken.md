@@ -1,6 +1,6 @@
 # Bourbon Street Chicken
 
-## Ingredients 
+## Ingredients
 
 - 2 lbs boneless chicken thighs, cut into thin strips
 - 3 tsp brown sugar bourbon seasoning
