@@ -5,7 +5,7 @@
 - ½ cup unsalted butter, softened
 - ¼ cup liquid honey
 - ¼ cup powdered sugar
-- 1 teaspoon ground cinnamon
+- 1 tsp ground cinnamon
 - 1 pinch salt
 
 ## Directions
