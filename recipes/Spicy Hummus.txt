@@ -1,4 +1,4 @@
-# Hummus
+# Spicy Hummus
 
 ## Ingredients
 
