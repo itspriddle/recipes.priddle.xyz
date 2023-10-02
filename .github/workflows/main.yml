@@ -21,6 +21,10 @@ jobs:
       # Checkout the source from the `jekyll` branch.
       - uses: actions/checkout@v3
 
+      - name: Mark github workspace as safe
+        run: |
+          git config --global --add safe.directory /github/workspace
+
       # Invoke this action against the newly checked out source code.
       - uses: fabacab/jekyll-builder-for-github-pages-action@master
         with:
