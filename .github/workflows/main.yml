@@ -19,7 +19,7 @@ jobs:
 
     steps:
       # Checkout the source from the `jekyll` branch.
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # Invoke this action against the newly checked out source code.
       - uses: fabacab/jekyll-builder-for-github-pages-action@master
