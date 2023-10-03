@@ -1,60 +1,61 @@
 # Name of your GitHub Actions workflow.
 name: Publish to GitHub Pages
 
+# Specifies to run this workflow whenever a push is made (commits are
+# added) to the branch named `master`.
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: [$default-branch]
+    branches:
+      # Change this to the branch where you keep your Jekyll code.
+      - master
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+env:
+  RUBY_VERSION: 2.7
 
 # Define a job named `build-and-publish` in your workflow.
 jobs:
-  # Build job
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
-        with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
-      - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
-      - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v2
+  build-and-publish:
+    runs-on: ubuntu-latest # This job uses a GitHub-hosted runner.
 
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
+    # env:
+    #   BUNDLE_PATH: "vendor/bundle"
+    #   BUNDLE_JOBS: 4
+    #   BUNDLE_RETRY: 3
+
+    # Skip builds with "[ci skip]" in the commit
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+
     steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+      - name: Clone target branch
+        run: |
+          REMOTE_BRANCH="${REMOTE_BRANCH:-gh-pages}"
+          REMOTE_REPO="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+
+          echo "Publishing to ${GITHUB_REPOSITORY} on branch ${REMOTE_BRANCH}"
+          rm -rf _site/
+          git clone --depth=1 --branch="${REMOTE_BRANCH}" --single-branch --no-checkout \
+            "${REMOTE_REPO}" _site/
+      - name: Build site
+        run: bundle exec jekyll build --destination _site --verbose --trace
+        env:
+          # For jekyll-github-metadata
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+        run: |
+          SOURCE_COMMIT="$(git log -1 --pretty="%an: %B" "$GITHUB_SHA")"
+          pushd _site &>/dev/null
+          : > .nojekyll
+
+          git add --all
+          git -c user.name="${GITHUB_ACTOR}" -c user.email="${GITHUB_ACTOR}@users.noreply.github.com" \
+            commit --quiet \
+            --message "Deploy site from ${GITHUB_SHA}" \
+            --message "$SOURCE_COMMIT"
+          git push
+
+          popd &>/dev/null
