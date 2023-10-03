@@ -9,33 +9,53 @@ on:
       # Change this to the branch where you keep your Jekyll code.
       - master
 
+env:
+  RUBY_VERSION: 2.7
+
 # Define a job named `build-and-publish` in your workflow.
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest # This job uses a GitHub-hosted runner.
 
+    env:
+      BUNDLE_PATH: "vendor/bundle"
+      BUNDLE_JOBS: 4
+      BUNDLE_RETRY: 3
+
     # Skip builds with "[ci skip]" in the commit
     if: "!contains(github.event.head_commit.message, '[ci skip]')"
 
     steps:
-      # Checkout the source from the `jekyll` branch.
       - uses: actions/checkout@v3
-
-      - name: Mark github workspace as safe
-        run: |
-          git config --global --add safe.directory /github/workspace
-
-      # Invoke this action against the newly checked out source code.
-      - uses: fabacab/jekyll-builder-for-github-pages-action@master
+      - uses: ruby/setup-ruby@v1
         with:
-          # Provide this action with your repository's `GH_PAGES_TOKEN`
-          # "Secret" variable. This should be the value of a personal
-          # access token granted, at a minimum, the `public_repo` and
-          # the `repo_deployment` scopes needed to deploy to GH Pages.
-          secret_gh_pages_api_token: ${{ secrets.GH_PAGES_TOKEN }}
+          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
+      - name: Clone target branch
+        run: |
+          REMOTE_BRANCH="${REMOTE_BRANCH:-gh-pages}"
+          REMOTE_REPO="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
 
-          # Branch to publish to
-          gh_pages_publishing_source: gh-pages
+          echo "Publishing to ${GITHUB_REPOSITORY} on branch ${REMOTE_BRANCH}"
+          rm -rf _site/
+          git clone --depth=1 --branch="${REMOTE_BRANCH}" --single-branch --no-checkout \
+            "${REMOTE_REPO}" _site/
+      - name: Build site
+        run: bundle exec jekyll build --destination _site --verbose --trace
+        env:
+          # For jekyll-github-metadata
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy to GitHub Pages
+        run: |
+          SOURCE_COMMIT="$(git log -1 --pretty="%an: %B" "$GITHUB_SHA")"
+          pushd _site &>/dev/null
+          : > .nojekyll
 
-          # Commit message
-          git_commit_message: "Update gh-pages"
+          git add --all
+          git -c user.name="${GITHUB_ACTOR}" -c user.email="${GITHUB_ACTOR}@users.noreply.github.com" \
+            commit --quiet \
+            --message "Deploy site from ${GITHUB_SHA}" \
+            --message "$SOURCE_COMMIT"
+          git push
+
+          popd &>/dev/null
