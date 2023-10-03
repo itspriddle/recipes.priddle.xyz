@@ -23,6 +23,7 @@ exclude:
   - bin
   - images
   - recipes/TEMPLATE.md
+  - vendor
 
 # Jekyll Plugins
 plugins:
