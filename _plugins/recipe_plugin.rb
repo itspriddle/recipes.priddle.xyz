@@ -166,3 +166,17 @@ Jekyll::Hooks.register :site, :post_write do |site|
 
   RecipePdfPresenter.generate_all!(recipes)
 end
+
+module Jekyll
+  module Drops
+    class StaticFileDrop
+      def recipe_title
+        return unless fallback_data["recipe"]
+
+        p = File.expand_path("../..#{path}", __FILE__)
+
+        File.open(p, &:gets).sub(/\A# /, "")
+      end
+    end
+  end
+end
