@@ -23,5 +23,5 @@
 Combine everything except for the brown sugar, wine and parsley in a baking
 dish. Marinate overnight or for a few hours. Preheat oven to 350F. Sprinkle
 brown sugar over chicken and pour wine around it. Bake for 1 - 1¼ hours until
-golden brown, basting often. Serve with fresh parsley on top and with serve
+golden brown, basting often. Serve with fresh parsley on top and serve with
 pan juices.

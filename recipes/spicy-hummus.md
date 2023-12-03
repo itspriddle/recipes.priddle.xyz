@@ -18,7 +18,7 @@
 Add tahini and lemon juice to food processor bowl and mix for 1 minute. Scrape
 sides and bottom and mix for 30 seconds more. Add olive oil, garlic, cumin and
 ½ tsp of salt. Mix for 30 seconds or until well blended. Add half of the
-chickpeas and mix for 1 minute. Scrape the sites and bottom of bowl and mix
+chickpeas and mix for 1 minute. Scrape the sides and bottom of bowl and mix
 again for 1-2 minutes until smooth. Add 2 tbsp of chipotle peppers (or more if
 a very spicy hummus is desired). Mix for 1 minute until smooth. If hummus is
 too thick, slowly add 2-3 tbsp of water until desired consistency is reached.
