@@ -1,4 +1,5 @@
 ---
+permalink: /
 layout: default
 home: true
 ---

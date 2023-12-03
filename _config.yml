@@ -28,6 +28,11 @@ exclude:
   - recipes/TEMPLATE.md
   - vendor
 
+include:
+  - recipes
+  - index.md
+  - _pages
+
 # Jekyll Plugins
 plugins:
   - jekyll-default-layout
@@ -62,14 +67,9 @@ collections:
   recipes:
     output: true
 
-include:
-  - recipes
-  - index.md
-
 defaults:
   - scope:
       path: recipes
     values:
       layout: default
       recipe: true
-
