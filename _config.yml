@@ -1,4 +1,6 @@
+# Site settings
 repository: itspriddle/recipes.priddle.xyz
+title: Recipes
 url: "https://recipes.priddle.xyz"
 baseurl: ""
 
@@ -41,8 +43,11 @@ titles_from_headings:
   collections: false
 
 # Layout
-theme: jekyll-theme-primer
-title: Recipes
+
+# Sass setup
+sass:
+  sass_dir: stylesheets
+  style: compressed
 
 # Metadata
 author:

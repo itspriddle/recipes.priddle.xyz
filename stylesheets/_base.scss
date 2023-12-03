@@ -1,0 +1,269 @@
+:root[data-color-mode="light"] {
+  --color-fg: #232323;
+  --color-bg: #fdfdfd;
+  // --color-bg: #eee;
+
+  --link-color-base: #2a7ae2;
+  --link-color-visited: #{darken(#2a7ae2, 15%)};
+  --link-color-hover: var(--color-fg);
+
+  --code-color-bg: #f4f8fe;
+  --code-color-border: #eaf2fc;
+
+  --table-odd-bg: #{lighten($grey-color, 46%)};
+  --table-header-bg: #{lighten($grey-color, 43%)};
+  --table-header-border: #{lighten($grey-color, 37%)};
+  --table-border-color: #{lighten($grey-color, 40%)};
+  --table-text-color: #515151;
+
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+
+  --hr-color: rgba(0, 0, 0, 0.15);
+}
+
+:root[data-color-mode="dark"] {
+  --font-weight-bold: 600;
+  --font-weight-normal: 300;
+
+  --color-fg: #bbb;
+  --color-bg: #181818;
+
+  --link-color-base: #79b8ff;
+  --link-color-visited: var(--link-color-base);
+  --link-color-hover: var(--color-fg);
+
+  --code-color-bg: #212121;
+  --code-color-border: var(--code-color-bg);
+
+  --table-odd-bg: #{lighten(#181818, 4%)};
+  --table-header-bg: #{lighten(#181818, 10%)};
+  --table-header-border: #{lighten(#181818, 21%)};
+  --table-border-color: #{darken(#999, 35%)};
+  --table-text-color: var(--color-fg);
+
+  --hr-color: rgba(255, 255, 255, 0.05);
+}
+
+
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+
+html {
+  // font-size: $base-font-size;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: var(--font-weight-normal);
+  line-height: $base-line-height;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  overflow-wrap: break-word;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: calc(#{$spacing-unit} / 2);
+}
+
+main {
+  display: block;
+}
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  // TODO: avoid h1 + hr
+  // &:not(:first-child) {
+  //   margin-top: $spacing-unit;
+  // }
+
+  font-weight: var(--font-weight-normal);
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: 1.125rem;
+  line-height: 1.45;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+
+/**
+ * Links
+ */
+a {
+  color: var(--link-color-base);
+  text-decoration: none;
+
+  &:visited {
+    color: var(--link-color-visited);
+  }
+
+  &:hover {
+    color: var(--color-fg);
+    text-decoration: underline;
+  }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: $grey-color;
+  border-left: 3px solid $grey-color;
+  padding-left: calc(#{$spacing-unit} / 2);
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-size: $mono-font-size;
+  border: 1px solid var(--code-color-border);
+  border-radius: 3px;
+  background-color: var(--code-color-bg);
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: scroll;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+pre, code, kbd, samp, tt {
+  font-family: $mono-font-family;
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/**
+ * HR
+ */
+
+hr:not([class]) {
+  text-align: center;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 1.5em 0 1.5em;
+  border: none;
+  color: var(--hr-color);
+
+  &::before {
+    content: "* * * * *";
+  }
+}

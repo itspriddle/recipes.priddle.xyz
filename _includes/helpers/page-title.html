@@ -1,0 +1,5 @@
+{%- if page.title -%}
+{{- page.title | append: " --- " | append: site.title | smartify -}}
+{%- else -%}
+{{- site.title | smartify -}}
+{%- endif -%}
