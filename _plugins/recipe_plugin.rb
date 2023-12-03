@@ -180,3 +180,89 @@ module Jekyll
     end
   end
 end
+
+class OldUrlRewrite
+  REDIRECT_TEMPLATE = <<~HTML
+    <!DOCTYPE html>
+    <html lang="en-US">
+      <meta charset="utf-8">
+      <title>Redirecting&hellip;</title>
+      <link rel="canonical" href="{URL}">
+      <script>location="{URL}"</script>
+      <meta http-equiv="refresh" content="0; url={URL}">
+      <meta name="robots" content="noindex">
+      <h1>Redirecting&hellip;</h1>
+      <a href="{URL}">Click here if you are not redirected.</a>
+    </html>
+  HTML
+
+  URLS = {
+    "6 Layer Taco Dip.html"                 => "6-layer-taco-dip.html",
+    "Anginetti Italian Cookies.html"        => "anginetti-italian-cookies.html",
+    "Ants Climbing Trees.html"              => "ants-climbing-trees.html",
+    "Artisan Bread.html"                    => "artisan-bread.html",
+    "Baked Egg Rolls.html"                  => "baked-egg-rolls.html",
+    "Baked Mac and Cheese.html"             => "baked-mac-and-cheese.html",
+    "Baked Ziti.html"                       => "baked-ziti.html",
+    "Banana Bread.html"                     => "banana-bread.html",
+    "Beef Stew.html"                        => "beef-stew.html",
+    "Bourbon Street Chicken.html"           => "bourbon-street-chicken.html",
+    "Buffalo Chicken Dip.html"              => "buffalo-chicken-dip.html",
+    "Buffalo Chicken Garbage Bread.html"    => "buffalo-chicken-garbage-bread.html",
+    "Buffalo Chicken Pull-Apart Bread.html" => "buffalo-chicken-pull-apart-bread.html",
+    "Buffalo Chicken Rolls.html"            => "buffalo-chicken-rolls.html",
+    "Cajun Roasted Potato Wedges.html"      => "cajun-roasted-potato-wedges.html",
+    "Cheese Souffle.html"                   => "cheese-souffle.html",
+    "Chicken Noodle Soup.html"              => "chicken-noodle-soup.html",
+    "Chocolate Chip Cookies.html"           => "chocolate-chip-cookies.html",
+    "Cinnamon Butter.html"                  => "cinnamon-butter.html",
+    "Classic Cheesecake.html"               => "classic-cheesecake.html",
+    "Fettuccine Carbonara.html"             => "fettuccine-carbonara.html",
+    "Fresh Pasta.html"                      => "fresh-pasta.html",
+    "Instant Pot Brown Rice.html"           => "instant-pot-brown-rice.html",
+    "Italian Meatballs.html"                => "italian-meatballs.html",
+    "Italian Wedding Soup.html"             => "italian-wedding-soup.html",
+    "Jack Daniel's Sauce.html"              => "jack-daniels-sauce.html",
+    "Jalapeno Cheddar Bread.html"           => "jalapeno-cheddar-bread.html",
+    "Jessica's Tomato Sauce.html"           => "jessicas-tomato-sauce.html",
+    "Justin's Autumn Fruit Chicken.html"    => "justins-autumn-fruit-chicken.html",
+    "Kahlua Cheesecake.html"                => "kahlua-cheesecake.html",
+    "Lemon Garlic Roasted Chicken.html"     => "lemon-garlic-roasted-chicken.html",
+    "Lo Mein.html"                          => "lo-mein.html",
+    "Marinara Sauce.html"                   => "marinara-sauce.html",
+    "Milk Bread.html"                       => "milk-bread.html",
+    "Parmesan Crisps.html"                  => "parmesan-crisps.html",
+    "Pasta Fagioli.html"                    => "pasta-fagioli.html",
+    "Pasta Salad.html"                      => "pasta-salad.html",
+    "Pecan Pie.html"                        => "pecan-pie.html",
+    "Pot Sticker Sauce.html"                => "pot-sticker-sauce.html",
+    "Pot Stickers.html"                     => "pot-stickers.html",
+    "Pumpkin Cheesecake Bars.html"          => "pumpkin-cheesecake-bars.html",
+    "Roasted Chickpeas.html"                => "roasted-chickpeas.html",
+    "Sauteed Fresh Green Beans.html"        => "sauteed-fresh-green-beans.html",
+    "Simple Fruit Syrup.html"               => "simple-fruit-syrup.html",
+    "Southwest Pasta Salad.html"            => "southwest-pasta-salad.html",
+    "Spicy Chili Cheese Dip.html"           => "spicy-chili-cheese-dip.html",
+    "Spicy Hummus.html"                     => "spicy-hummus.html",
+    "Spinach Artichoke Dip.html"            => "spinach-artichoke-dip.html",
+    "Stuffed Shells.html"                   => "stuffed-shells.html",
+    "Turkey Chili.html"                     => "turkey-chili.html",
+    "Vincenzos Marinara Sauce.html"         => "vincenzos-marinara-sauce.html",
+  }
+
+  def self.generate(site)
+    URLS.each do |old_url, new_url|
+      path = File.expand_path("../../_site/recipes/#{old_url}", __FILE__)
+
+      next if File.exist?(path)
+
+      File.open(path, "w") do |f|
+        f.puts REDIRECT_TEMPLATE.gsub("{URL}", "#{site.config["url"]}/#{new_url}")
+      end
+    end
+  end
+end
+
+Jekyll::Hooks.register :site, :post_write do |site|
+  OldUrlRewrite.generate(site)
+end
