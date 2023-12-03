@@ -257,7 +257,7 @@ class OldUrlRewrite
       next if File.exist?(path)
 
       File.open(path, "w") do |f|
-        f.puts REDIRECT_TEMPLATE.gsub("{URL}", "#{site.config["url"]}/#{new_url}")
+        f.puts REDIRECT_TEMPLATE.gsub("{URL}", "#{site.config["url"]}/recipes/#{new_url}")
       end
     end
   end
