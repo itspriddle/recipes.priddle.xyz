@@ -3,7 +3,7 @@ layout: default
 home: true
 ---
 
-🎂 and 🍝 and lots of 🧀
+🎂 and 🍝 and lots of <span class="color-mode-toggle">🧀</span>
 
 <ul>
 {% assign recipes = site.static_files | where: "recipe", true %}
