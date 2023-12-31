@@ -27,7 +27,7 @@ Preheat oven to 350° F. Cookies: mix together sugar and shortening. Add eggs
 and lemon extract, beat well. Add flour, baking powder, salt and lemon zest.
 Mix well. Dough should be soft and sticky. Drop small round cookies on a
 slightly greased cookie sheet, about 2 inches apart. Bake for 12-15 minutes.
-Remove cookies and allow to col completely on a wire rack. Whisk all frosting
+Remove cookies and allow to cool completely on a wire rack. Whisk all frosting
 ingredients in small bowl. Dip cookies upside down in the frosting. Set on
 cookie tray lined with wax paper. Sprinkle colored dots on the cookies
 immediately after dipping. Chill to harden before stacking.
