@@ -2,10 +2,10 @@
 
 ## Ingredients
 
-- 6oz water or milk
-- 2oz peppermint schnapps
-- 2oz crème de cocoa liqueur
-- ½oz crème de menthe liqueur
+- 6 oz water or milk
+- 2 oz peppermint schnapps
+- 2 oz crème de cocoa liqueur
+- ½ oz crème de menthe liqueur
 - 1 serving cocoa mix
 
 ## Directions

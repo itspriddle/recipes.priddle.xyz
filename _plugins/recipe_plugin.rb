@@ -162,7 +162,7 @@ end
 
 
 Jekyll::Hooks.register :site, :post_write do |site|
-  recipes = site.pages.select { |page| page.data["recipe"] }
+  recipes = site.pages.select { |page| page.data["recipe"] || page.data["cocktail"] }
 
   RecipePdfPresenter.generate_all!(recipes)
 end
@@ -171,7 +171,7 @@ module Jekyll
   module Drops
     class StaticFileDrop
       def recipe_title
-        return unless fallback_data["recipe"]
+        return unless fallback_data["recipe"] || fallback_data["cocktail"]
 
         p = File.expand_path("../..#{path}", __FILE__)
 

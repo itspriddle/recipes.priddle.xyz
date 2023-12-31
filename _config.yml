@@ -29,6 +29,7 @@ exclude:
   - vendor
 
 include:
+  - cocktails
   - recipes
   - index.md
   - _pages
@@ -66,6 +67,8 @@ author:
 collections:
   recipes:
     output: true
+  cocktails:
+    output: true
 
 defaults:
   - scope:
@@ -73,3 +76,8 @@ defaults:
     values:
       layout: default
       recipe: true
+  - scope:
+      path: cocktails
+    values:
+      layout: default
+      cocktail: true
