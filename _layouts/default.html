@@ -24,7 +24,7 @@
   </head>
 
   <body>
-    {% unless page.recipe %}
+    {% unless page.recipe or page.cocktail %}
       <header class="site-header">
         <div class="wrapper">
           <a class="site-title" href="/" title="recipes.priddle.xyz">
@@ -46,7 +46,7 @@
       </div>
     </main>
 
-    {% if page.recipe %}
+    {% if page.recipe or page.cocktail %}
       <footer class="site-footer">
         <div class="wrapper">
           <div class="footer-col-wrapper">
