@@ -10,7 +10,7 @@ on:
       - master
 
 env:
-  RUBY_VERSION: 2.7
+  RUBY_VERSION: 3.2
 
 # Define a job named `build-and-publish` in your workflow.
 jobs:
