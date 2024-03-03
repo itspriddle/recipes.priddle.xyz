@@ -1,5 +1,15 @@
 source "https://rubygems.org"
 
-gem "github-pages"
+gem "jekyll", "~> 4.3.2"
+gem "jekyll-feed"
+gem "jekyll-gist"
+gem "jekyll-github-metadata"
+gem "jekyll-redirect-from"
+gem "jekyll-default-layout"
+gem "jekyll-titles-from-headings"
+gem "jekyll-optional-front-matter"
+gem "jekyll-sitemap"
+gem "jemoji"
+
 gem "prawn"
 gem "matrix"
