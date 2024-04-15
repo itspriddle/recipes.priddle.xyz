@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 1 package of Boursin garlic and herb cheese
+- 1 package Boursin garlic and herb cheese
 - 1 container grape tomatoes
-- 2-3 cloves of garlic, crushed
-- 2 tsp of fresh chives
+- 2-3 cloves garlic, crushed
+- 2 tsp fresh chives
 - 1 cup fresh basil
-- 1 package of tortellini
-- 2 large handfuls of fresh spinach
+- 1 package tortellini
+- 2 large handfuls fresh spinach
 - olive oil
 - salt and pepper
 
