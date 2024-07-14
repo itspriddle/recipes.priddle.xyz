@@ -13,7 +13,6 @@
 - 2 tbsp extra virgin olive oil
 - ½ tsp salt
 - ½ tsp freshly ground black pepper
-- pepper
 
 ## Directions
 
