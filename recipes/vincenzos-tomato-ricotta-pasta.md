@@ -20,9 +20,9 @@
 For soffritto, blend carrots, celery, yellow onion, and 50 milliliters of
 olive oil in a food processor until well blended and smooth. Add 2 tbsp olive
 oil and soffritto to a pan on medium low heat, simmer for 10 minutes until
-light golden brown. passata, salt, and pepper. Cook for 20 minutes. Tear basil
-and add to sauce when 2 minutes are left. Add Cook pasta according to package
-instructions. Reserve a half cup of pasta water.
+light golden brown. Add passata, salt, and pepper. Cook for 20 minutes. Tear
+basil and add to sauce when 2 minutes are left. Add Cook pasta according to
+package instructions. Reserve a half cup of pasta water.
 
 In a bowl mix ricotta and parmigiano reggiano. Add 2-3 tbsp of pasta water to
 the bowl and mix until creamy. Add to cooked sauce and mix well. Mix in cooked
