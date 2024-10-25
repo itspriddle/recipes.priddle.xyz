@@ -1,12 +1,12 @@
-# Turkey Chili
+# Bob's Chili
 
 ## Ingredients
 
-- 2 lbs ground turkey
-- 2 large cans Cento crushed tomatos
+- 2 lbs ground beef (or turkey)
+- 2 large cans Cento crushed tomatoes
 - 1 large can Cento tomato purée
 - 2 large green peppers
-- 2 large poblanos or jalapenos
+- 2 large poblanos or jalapeños
 - ½ small white onion
 - 1 small can kidney beans
 - 2 tbsp cumin
@@ -18,7 +18,7 @@
 
 ## Directions
 
-Season turkey with salt and pepper. Sauté turkey until browned. Drain and
-discard grease. Chop peppers and onion and sauté. Drain and rinse beans. Mix
+Season meat with salt and pepper. Sauté meat until browned. Drain and discard
+grease. Finely chop peppers and onion and sauté. Drain and rinse beans. Mix
 all ingredients in crock pot on low heat. Cook for 3-4 hours, until peppers
 are soft.
