@@ -243,8 +243,11 @@ class OldUrlRewrite
     "Spicy Hummus.html"                     => "spicy-hummus.html",
     "Spinach Artichoke Dip.html"            => "spinach-artichoke-dip.html",
     "Stuffed Shells.html"                   => "stuffed-shells.html",
-    "Turkey Chili.html"                     => "turkey-chili.html",
+    "Turkey Chili.html"                     => "bobs-chili.html",
     "Vincenzos Marinara Sauce.html"         => "vincenzos-marinara-sauce.html",
+
+    "turkey-chili.html"                     => "bobs-chili.html",
+    "pasta-alla-checca.html"                => "vincenzos-pasta-alla-checca.html",
   }
 
   def self.generate(site)
