@@ -10,7 +10,7 @@
 - 10 eggs
 - 1 stick butter softened
 - 1 package cream cheese
-- 1 teaspoon vanilla
+- 1 tsp vanilla
 - ¼ cup maple syrup
 
 ### Streusel Topping
