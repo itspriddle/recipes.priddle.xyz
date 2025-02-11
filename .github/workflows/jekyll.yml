@@ -19,10 +19,6 @@ on:
     branches:
       - master
 
-# Use Ruby 3.2 in all jobs
-env:
-  RUBY_VERSION: 3.2
-
 jobs:
   build:
     runs-on: ubuntu-latest # This job uses a GitHub-hosted runner.
@@ -36,7 +32,6 @@ jobs:
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ env.RUBY_VERSION }}
           bundler-cache: true
       - name: Build site
         run: bundle exec jekyll build --destination _site --verbose --trace
