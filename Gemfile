@@ -13,3 +13,7 @@ gem "jemoji"
 
 gem "prawn"
 gem "matrix"
+gem "csv"
+gem "logger"
+gem "ostruct"
+gem "base64"
