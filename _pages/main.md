@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /main/
 layout: page
 home: true
 ---
